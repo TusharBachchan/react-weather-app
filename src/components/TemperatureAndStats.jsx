@@ -16,7 +16,7 @@ const TemperatureAndStats = ({ weatherData }) => {
   return (
     <div className=" text-white sm:p-12 grid sm:grid-cols-3 gap-10">
       <div className="temp shadow-xl p-5">
-        <div className="orignalTemp text-5xl sm:text-6xl text-center sm:text-start shadow">
+        <div className="orignalTemp text-5xl text-center sm:text-start shadow">
           {temp}&deg;C
         </div>
         <div className="feelsLike text-4xl text-center sm:text-start">
