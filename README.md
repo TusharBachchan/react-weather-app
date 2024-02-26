@@ -62,9 +62,3 @@ Enter a city name in the app, and it will display the local time of that city us
 
 - This project uses the Vite framework.
 - Data is fetched from OpenWeatherMap and TimeZoneDB APIs.
-
-Feel free to contribute and enhance the functionality of the app!
-
-```
-
-Make sure to replace placeholders like `your-username` and customize the URLs and other details based on your project structure and requirements.
