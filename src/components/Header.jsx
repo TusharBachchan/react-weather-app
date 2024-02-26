@@ -23,15 +23,6 @@ const Header = ({ city, setCity, getWeatherByCity }) => {
         />
       </div>
       <div className="sm:col-span-3 location mx-auto sm:mx-2 flex sm:justify-end">
-        <button
-          type="button"
-          class="flex justify-center items-center gap-2 text-white bg-green-500 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-3xl text-xl px-5 py-2.5 text-center cursor-pointer"
-        >
-          <span>
-            <IoMdLocate />
-          </span>
-          Current Location
-        </button>
       </div>
     </div>
   );

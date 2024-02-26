@@ -1,15 +1,11 @@
-import React, {useState, useEffect} from "react";
-import dateFormat from "dateformat";
-const TimeAndLocation = ({ city }) => {
-  const renderDate = () => {
-    let now = new Date();
-    return dateFormat(now, "dddd, mmmm dS, h:MM TT")
-  }
+import React from "react";
+
+const TimeAndLocation = ({ city, time }) => {
   return (
-    <div className="TimeAndLocation shadow-xl text-center">
-      <div className="location text-8xl font-semiboldbold">{city}</div>
-      <div className="time text-8xl">
-        {renderDate()}
+    <div className="TimeAndLocation text-center sm:p-12">
+      <div className="location text-8xl font-semiboldbold mb-2">{city}</div>
+      <div className="time text-3xl">
+        {time}
       </div>    
     </div>
   );
