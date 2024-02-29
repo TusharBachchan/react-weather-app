@@ -3,7 +3,7 @@ import { CiSearch } from "react-icons/ci";
 import { IoMdLocate } from "react-icons/io";
 const Header = ({ city, setCity, getWeatherByCity }) => {
   return (
-    <div className="header grid sm:grid-cols-12 items-center sm:p-10 sm:gap-3 gap-5 p-5">
+    <div className="header grid sm:grid-cols-12 items-center sm:p-7 sm:gap-3 gap-5 p-5">
       <div className="sm:col-span-3 app-name sm:text-start text-4xl text-center text-white ">
         <h2>weather-app</h2>
       </div>
