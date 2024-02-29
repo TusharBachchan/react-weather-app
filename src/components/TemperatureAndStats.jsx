@@ -46,7 +46,7 @@ const TemperatureAndStats = ({ weatherData }) => {
         <div className="pressure flex justify-center items-center">
           <div className="text-center text-2xl">
             <IoSpeedometerOutline size={70} />
-            {`${pressure} km/hr`}
+            {`${pressure} hPA`}
           </div>
         </div>
       </div>
